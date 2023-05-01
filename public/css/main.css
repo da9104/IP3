@@ -27,6 +27,7 @@ h1 {
 #location {
   padding-top: 5px;
   font-weight: bold;
+  font-size: 20px;
 }
 
 #logo {
@@ -47,11 +48,17 @@ h1 {
   height: 50px;
 }
 
-.attractions {
+
+
+/* Attractions Page Styling */
+/* Attractions Page Styling */
+/* Attractions Page Styling */
+
+/* .attractions {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
+} */
 
 .attractionTitle {
   font-weight: bold;
@@ -60,16 +67,18 @@ h1 {
   text-align: center;
   background-color: #629c698a;
   padding: 10px;
-}
-.attractions {
-  display: flex;
+}.attractions {
+  /* display: flex;
   flex-wrap: wrap;
   justify-content: center;
   font-weight: bold;
   font-size: 20px;
   margin-top: 10px;
   text-align: center;
-  padding: 10px;
+  padding: 10px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .attraction1,
@@ -77,11 +86,16 @@ h1 {
 .attraction3,
 .attraction4,
 .attraction5 {
-  margin: 20px;
+  /* margin: 20px;
   flex-basis: 30%;
   border: 2px solid #629c69;
   padding: 40px;
+  background-color: #629c698a; */
+  /* font-size: 15px; */
+
+  padding: 20px;
   background-color: #629c698a;
+
 }
 
 .attraction1:hover,
@@ -117,6 +131,45 @@ h1 {
   color: rgba(244, 47, 47, 0.447);
   font-weight: bold;
 }
+
+/* Attractions Widegt Styling */
+/* Attractions Widegt Styling */
+/* Attractions Widegt Styling */
+/* .attractionWidetContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ font-weight: bold;
+   font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+.atWiget{
+  margin: 20px;
+  flex-basis: 30%;
+  border: 1px solid #629c69;
+  padding: 20px;
+  background-color: #629c698a;
+  font-style: italic;
+
+}
+
+.atWiget:hover {
+  border: 1px solid rgba(244, 47, 47, 0.593);
+  background-color: rgba(244, 47, 47, 0.263);
+}
+
+
+
+
+
+/* Attractions Widegt Styling */
+/* Attractions Widegt Styling */
+/* Attractions Widegt Styling */
+
+
 
 /* Index page  */
 
@@ -480,6 +533,7 @@ p.weather-city {
   margin: 0;
   color: #293251;
   text-align: center;
+  font-weight: bold;
   font-size: 20px;
 }
 
