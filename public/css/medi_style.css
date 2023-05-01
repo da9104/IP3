@@ -140,7 +140,6 @@ form #registration-form {
   }
 }
 
-.form_input,
 .form_button {
   font: "Quicksand", Calibri;
 }
@@ -195,6 +194,7 @@ label {
 
 /* Text-Fields Styles */
 .form_input {
+  font: "Quicksand", Calibri;
   object-fit: fill;
   text-align: left;
   font-size: 20px;
@@ -276,11 +276,6 @@ label {
   transform: scale(0.98);
 }
 
-.form_text {
-  text-align: center;
-  font-size: 16px;
-  text-decoration: none;
-}
 
 h2 {
   text-align: center;

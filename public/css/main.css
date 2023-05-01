@@ -5,20 +5,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* #username{
-  text-decoration: none;
-  color: #000000;
-} */
-
-body {
-  /* background-color: #b4ceaa; */
-  /* background-image: url(../images/launch2.jpeg) ; */
-
-  /* font: 16px "Quicksand", "Calibri"; */
-}
-
 h1 {
-  /* margin-top: 1rem; */
   text-align: center;
   font-size: 20px;
 }
@@ -27,10 +14,6 @@ h1 {
   text-decoration: none;
   color: black;
 }
-
-/* .menu_bar_headings{
-  align-items: left;
-} */
 
 .dateTime {
   padding: 2.2rem;
@@ -57,8 +40,6 @@ h1 {
 .logo {
   width: 50px;
   height: 50px;
-  /* border-radius: 50%;
-  box-shadow: 0 0 10px rgba(244, 47, 47, 0.447); */
 }
 
 .logo2 {
@@ -88,7 +69,6 @@ h1 {
   font-size: 20px;
   margin-top: 10px;
   text-align: center;
-  /* background-color: #629c698a; */
   padding: 10px;
 }
 
@@ -101,7 +81,6 @@ h1 {
   flex-basis: 30%;
   border: 2px solid #629c69;
   padding: 40px;
-  /* gap: 10px; */
   background-color: #629c698a;
 }
 
@@ -139,8 +118,6 @@ h1 {
   font-weight: bold;
 }
 
-/* Index page  */
-/* Index page  */
 /* Index page  */
 
 .slider {
@@ -269,9 +246,8 @@ h1 {
 
 .forum {
   font: 20px "Quicksand", "Calibri";
-  width: 400px;
   max-width: 400px;
-  margin: 4rem;
+  max-height: fit-content;
   padding: 2rem;
   box-shadow: 0 0 15px rgb(0, 0, 0);
   float: right;
@@ -279,8 +255,14 @@ h1 {
   background: white;
   position: absolute;
   z-index: 2;
-  margin-left: 1000px;
-  margin-top: 140px;
+}
+
+#landing-forum {
+  font: 20px "Quicksand", Calibri;
+  box-shadow: 0 0 10px rgb(71, 71, 71);
+  background: #f5f5f5;
+  position: absolute;
+  z-index: 2;
 }
 
 .form_input,
@@ -304,6 +286,7 @@ h1 {
 .form_title {
   margin: 2rem 2rem 0 0;
   text-align: center;
+  font-size: 40px;
   width: 100%;
 }
 
@@ -327,6 +310,11 @@ h1 {
   display: flex;
   /* Extremely Important for keeping the labels and text-fields inline*/
   font-size: 19px;
+  justify-content: center;
+}
+
+.form-group {
+  justify-content: center;
 }
 
 /* Label Styles */
@@ -347,7 +335,6 @@ label {
   outline: none;
   background: #ffffff;
   transition: background 0.2s, border-color 0.2s;
-  margin-right: 20px;
 }
 
 /* Drop Down Select Box Styles */
@@ -378,11 +365,11 @@ label {
 }
 
 /* Main Button Styles */
-.form_button {
-  width: 236px;
-  margin: 10px;
+.form_button,
+.btn-block {
+  justify-content: center;
+  width: 100%;
   padding: 1rem 1rem;
-  margin-left: 6rem;
   color: #ffffff;
   font-size: 18px;
   border: none;
@@ -390,6 +377,7 @@ label {
   outline: none;
   cursor: pointer;
   background: #68a66f;
+  margin-bottom: 10px;
 }
 
 /* Button Interactivity */
@@ -435,7 +423,16 @@ label {
 
 .form_text {
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+#form_intro_text {
+  padding-top: 10px;
+}
+
+#username-register {
+  padding-top: 10px;
 }
 
 /* Map */
