@@ -74,5 +74,5 @@ function getDt(dtUrl){
 
 function displayDateTime(dateTime){
     const dateTimeElement = document.querySelector(`.dateTime`);
-    dateTimeElement.innerHTML = `${dateTime}`;
+    dateTimeElement.innerHTML = `${dateTime}<br/>`;
 }
